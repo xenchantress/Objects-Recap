@@ -140,7 +140,7 @@ const fruits = [
   **********/
   
   function countSweetFruits(fruits) {
-    return fruits.filter(fruit => fruit.taste).length;
+    return fruits.filter(fruit => fruit.taste === "Sweet").length;
     // Your code here
   }
    console.log(countSweetFruits(fruits));
