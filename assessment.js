@@ -30,7 +30,7 @@ const products = [
       price: 149.99,
     },
   ];
-  
+   
   /**********
     Question 1:
     You have a function getProductName(product) that:
