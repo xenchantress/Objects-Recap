@@ -14,8 +14,11 @@
 // const names = [ "Salem", "Sara"];
 // const [name1,name2]=names;
 //---------------------------------------------------------------------------------------
-const numbers = [ 1,2,3,4];
-const number = numbers;
+const numbers = [1,2,3,4];
+
+const another = numbers;
+
 numbers[0] = 10;
-console.log(numbrs);
-console.log(another)
+
+console.log(numbers);
+console.log(another);
